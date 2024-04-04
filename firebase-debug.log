@@ -1,0 +1,59 @@
+[debug] [2024-04-04T13:31:26.119Z] ----------------------------------------------------------------------
+[debug] [2024-04-04T13:31:26.124Z] Command:       /usr/local/bin/node /usr/local/bin/firebase init hosting
+[debug] [2024-04-04T13:31:26.124Z] CLI Version:   13.5.2
+[debug] [2024-04-04T13:31:26.124Z] Platform:      darwin
+[debug] [2024-04-04T13:31:26.124Z] Node Version:  v20.11.1
+[debug] [2024-04-04T13:31:26.124Z] Time:          Thu Apr 04 2024 22:31:26 GMT+0900 (Korean Standard Time)
+[debug] [2024-04-04T13:31:26.124Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-04-04T13:31:26.270Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-04-04T13:31:26.271Z] > authorizing via signed-in user (sdmycom@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/hoon/StudioProjects/sadam_admin
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-04-04T13:31:26.276Z] Using project from CLI flag: claimassistant-45a0c
+[debug] [2024-04-04T13:31:26.278Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/claimassistant-45a0c [none]
+[debug] [2024-04-04T13:31:27.226Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/claimassistant-45a0c 200
+[debug] [2024-04-04T13:31:27.227Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/claimassistant-45a0c {"projectId":"claimassistant-45a0c","projectNumber":"891306650978","displayName":"ClaimAssistant","name":"projects/claimassistant-45a0c","resources":{"hostingSite":"claimassistant-45a0c","realtimeDatabaseInstance":"claimassistant-45a0c-default-rtdb"},"state":"ACTIVE","etag":"1_06c96556-4feb-4b5a-965e-0f8204e353e6"}
+[info] i  Using project claimassistant-45a0c (ClaimAssistant) 
+[info] 
+=== Hosting Setup
+[debug] [2024-04-04T13:31:27.234Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/claimassistant-45a0c [none]
+[debug] [2024-04-04T13:31:27.656Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/claimassistant-45a0c 200
+[debug] [2024-04-04T13:31:27.657Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/claimassistant-45a0c {"projectId":"claimassistant-45a0c","projectNumber":"891306650978","displayName":"ClaimAssistant","name":"projects/claimassistant-45a0c","resources":{"hostingSite":"claimassistant-45a0c","realtimeDatabaseInstance":"claimassistant-45a0c-default-rtdb"},"state":"ACTIVE","etag":"1_06c96556-4feb-4b5a-965e-0f8204e353e6"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2024-04-04T13:31:39.674Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2024-04-04T13:31:39.953Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2024-04-04T13:31:39.953Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"10.10.0","browserURL":"https://www.gstatic.com/firebasejs/10.10.0/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/10.10.0/firebase.tgz"},"live":{"version":"10.10","browserURL":"https://www.gstatic.com/firebasejs/live/10.10/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/10.10/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/10.10.0/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/10.10.0/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/10.10.0/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/10.10.0/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/10.10.0/firebase-auth/cordova.js","auth/web-extension":"https://www.gstatic.com/firebasejs/10.10.0/firebase-auth/web-extension.js","functions":"https://www.gstatic.com/firebasejs/10.10.0/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/10.10.0/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/10.10.0/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/10.10.0/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/10.10.0/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/10.10.0/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/10.10.0/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/10.10.0/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/10.10.0/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/10.10.0/firebase-database.js","firestore.memory":"https://www.gstatic.com/firebasejs/10.10.0/firebase-firestore.memory.js"}}
+[info] ✔  Wrote public/index.html 
+[info] 
+[info] i  Didn't detect a .git folder. Assuming /Users/hoon/StudioProjects/sadam_admin is the project root. 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=666321967&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
