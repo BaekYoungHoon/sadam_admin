@@ -1,5 +1,7 @@
 # This is a generated file; do not edit or check into version control.
-cloud_firestore=/Users/hoon/.pub-cache/hosted/pub.dev/cloud_firestore-4.15.9/
-cloud_firestore_web=/Users/hoon/.pub-cache/hosted/pub.dev/cloud_firestore_web-3.10.9/
-firebase_core=/Users/hoon/.pub-cache/hosted/pub.dev/firebase_core-2.27.1/
-firebase_core_web=/Users/hoon/.pub-cache/hosted/pub.dev/firebase_core_web-2.12.0/
+cloud_firestore=/Users/hoon/.pub-cache/hosted/pub.dev/cloud_firestore-4.16.1/
+cloud_firestore_web=/Users/hoon/.pub-cache/hosted/pub.dev/cloud_firestore_web-3.11.1/
+firebase_core=/Users/hoon/.pub-cache/hosted/pub.dev/firebase_core-2.29.0/
+firebase_core_web=/Users/hoon/.pub-cache/hosted/pub.dev/firebase_core_web-2.15.0/
+firebase_messaging=/Users/hoon/.pub-cache/hosted/pub.dev/firebase_messaging-14.8.1/
+firebase_messaging_web=/Users/hoon/.pub-cache/hosted/pub.dev/firebase_messaging_web-3.8.1/

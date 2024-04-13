@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:sadam_admin/add_faq.dart';
 import 'package:sadam_admin/main.dart';
 import 'package:sadam_admin/user_list.dart';
 import 'package:sadam_admin/accident_list.dart';
+import 'package:sadam_admin/faq.dart';
 
 class bar{
   Widget drawer(BuildContext context){
@@ -14,6 +16,7 @@ class bar{
           SizedBox(height: 50,),
           list("회원 리스트", context, UserList(), 14),
           list("알림사고 리스트", context, AccidentList(), 14),
+          list("FAQ", context, faq(), 14)
         ],
       ),
     );

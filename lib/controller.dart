@@ -22,3 +22,6 @@ final answerController = TextEditingController();
 final commissionController = TextEditingController();
 final isSignedController = TextEditingController();
 
+final faqquestionController = TextEditingController();
+final faqanswerController = TextEditingController();
+
